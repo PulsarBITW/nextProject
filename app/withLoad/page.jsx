@@ -3,6 +3,7 @@ export const waiting = async () => {
   const promise = new Promise((res, reject) => {
     setTimeout(() => res("good"), 3000);
   });
+  await promise;
   return;
 };
 
