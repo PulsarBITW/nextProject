@@ -1,14 +1,4 @@
-// просто для задержки загрузки страницы
-export const waiting = async () => {
-  const promise = new Promise((res, reject) => {
-    setTimeout(() => res("good"), 3000);
-  });
-  const data = await promise;
-  return data;
-};
-
 export default async function Page() {
-  const data = await waiting();
   return (
     <>
       <h1>Page with loading</h1>
