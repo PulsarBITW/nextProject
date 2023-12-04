@@ -8,7 +8,22 @@ import FormButton from "./ui/fromButton/formButton";
 //   return res.data;
 // };
 
-export default async function Home() {
+export const metadata = {
+  openGraph: {
+    title: "home",
+    description: "og описание home",
+    url: "https://next-rule.vercel.app",
+    images: [
+      {
+        url: "https://i.postimg.cc/xd5xdw0j/og2.jpg",
+        width: 800,
+        height: 500,
+      },
+    ],
+  },
+};
+
+export default function Home() {
   // const data = await getData();
 
   return (

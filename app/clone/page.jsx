@@ -1,5 +1,17 @@
 export const metadata = {
   title: "clone",
+  openGraph: {
+    title: "clone",
+    description: "og описание clone",
+    url: "https://next-rule.vercel.app/clone",
+    images: [
+      {
+        url: "https://i.postimg.cc/DwfwGF7t/3.png",
+        width: 800,
+        height: 500,
+      },
+    ],
+  },
 };
 
 const aboutPage = () => {
