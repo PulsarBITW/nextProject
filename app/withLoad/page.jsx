@@ -1,9 +1,13 @@
-export default async function Page() {
-  // просто для задержки загрузки страницы
+// просто для задержки загрузки страницы
+export const waiting = async () => {
   const promise = new Promise((res, reject) => {
     setTimeout(() => res("good"), 3000);
   });
-  await promise;
+  return;
+};
+
+export default async function Page() {
+  await waiting();
   return (
     <>
       <h1>Page with loading</h1>
