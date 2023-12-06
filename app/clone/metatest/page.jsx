@@ -1,7 +1,3 @@
-export const metadata = {
-  title: "metatest",
-};
-
 export default function Page() {
   return (
     <div>
