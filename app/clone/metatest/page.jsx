@@ -1,7 +1,6 @@
 export const metadata = {
   title: "metatest",
   description: "описание metatest",
-  url: "/clone/metatest",
 };
 
 export default function Page() {
