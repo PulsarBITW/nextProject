@@ -10,6 +10,7 @@ export const metadata = {
   description: "RootLayout Title description",
   openGraph: {
     title: "OG title RootLayout",
+    description: "OG description RootLayout",
     images: [
       {
         url: "https://i.postimg.cc/xd5xdw0j/og2.jpg",
