@@ -1,5 +1,6 @@
 export const metadata = {
-  description: "metatest",
+  title: "metatest",
+  description: "описание metatest",
 };
 
 export default function Page() {

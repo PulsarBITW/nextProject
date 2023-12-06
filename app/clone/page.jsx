@@ -1,16 +1,10 @@
+import Link from "next/link";
+
 export const metadata = {
   title: "clone",
   openGraph: {
     title: "clone",
     description: "og описание clone",
-    url: "https://next-rule.vercel.app/clone",
-    images: [
-      {
-        url: "https://i.postimg.cc/DwfwGF7t/3.png",
-        width: 800,
-        height: 500,
-      },
-    ],
   },
 };
 
@@ -18,6 +12,7 @@ const aboutPage = () => {
   return (
     <>
       <h1>About us</h1>
+      <Link href="/clone/metatest">metatest</Link>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore cum
         placeat velit voluptas. Sint quas ipsum quos dicta possimus eveniet et
