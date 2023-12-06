@@ -1,6 +1,7 @@
 export const metadata = {
   title: "layout",
   description: "описание наследуется от layout'a",
+  url: "/clone",
   images: [
     {
       url: "https://i.postimg.cc/DwfwGF7t/3.png",
