@@ -4,6 +4,7 @@ export const metadata = {
   openGraph: {
     title: "og title layput",
     description: "og layout",
+    url: "/clone",
     images: [
       {
         url: "https://i.postimg.cc/DwfwGF7t/3.png",
