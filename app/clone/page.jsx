@@ -6,7 +6,6 @@ export const metadata = {
   openGraph: {
     title: "og title - от OG",
     description: "описание OG",
-
     images: [
       {
         url: "https://i.postimg.cc/DwfwGF7t/3.png",

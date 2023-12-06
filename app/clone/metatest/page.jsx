@@ -1,9 +1,6 @@
 export const metadata = {
   title: "metatest",
   description: "описание metatest",
-  openGraph: {
-    title: "og для metatest",
-  },
 };
 
 export default function Page() {
