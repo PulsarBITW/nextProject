@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "og title - от OG",
     description: "описание OG",
-    url: "https://next-rule.vercel.app/clone",
+
     images: [
       {
         url: "https://i.postimg.cc/DwfwGF7t/3.png",

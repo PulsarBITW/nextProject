@@ -3,7 +3,6 @@ export const metadata = {
   description: "описание metatest",
   openGraph: {
     title: "og для metatest",
-    url: "https://next-rule.vercel.app/clone/metatest",
   },
 };
 
