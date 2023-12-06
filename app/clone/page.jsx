@@ -1,11 +1,10 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "layout",
-  description: "описание наследуется от layout'a",
+  title: "clone",
   openGraph: {
-    title: "og title - от OG",
-    description: "описание OG",
+    title: " og title page clone",
+    description: "og description page clone",
     images: [
       {
         url: "https://i.postimg.cc/DwfwGF7t/3.png",

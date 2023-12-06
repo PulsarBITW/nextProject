@@ -6,8 +6,18 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Dany Wayne",
-  description: "проверяю работа metadata и opengraph",
+  title: "RootLayout Title",
+  description: "RootLayout Title description",
+  openGraph: {
+    title: "OG title RootLayout",
+    images: [
+      {
+        url: "https://i.postimg.cc/xd5xdw0j/og2.jpg",
+        width: 800,
+        height: 500,
+      },
+    ],
+  },
 };
 
 const status = !false; // for checking global-error.jsxsss
