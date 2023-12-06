@@ -1,7 +1,20 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "clone",
+  title: "layout",
+  description: "описание наследуется от layout'a",
+  openGraph: {
+    title: "og title - от OG",
+    description: "описание OG",
+    url: "https://next-rule.vercel.app/clone",
+    images: [
+      {
+        url: "https://i.postimg.cc/DwfwGF7t/3.png",
+        width: 800,
+        height: 500,
+      },
+    ],
+  },
 };
 
 const aboutPage = () => {
