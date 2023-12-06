@@ -6,8 +6,6 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "RootLayout Title",
-  description: "RootLayout Title description",
   openGraph: {
     title: "OG title RootLayout",
     description: "OG description RootLayout",

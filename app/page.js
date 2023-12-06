@@ -7,7 +7,9 @@ import FormButton from "./ui/fromButton/formButton";
 //   const res = await axios.get("http://localhost:57943/cates");
 //   return res.data;
 // };
-
+export const metadata = {
+  title: "Try next",
+};
 export default function Home() {
   // const data = await getData();
 
