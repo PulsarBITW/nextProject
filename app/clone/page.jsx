@@ -2,9 +2,6 @@ import Link from "next/link";
 
 export const metadata = {
   title: "clone",
-  openGraph: {
-    title: "OG title clone",
-  },
 };
 const aboutPage = () => {
   return (
