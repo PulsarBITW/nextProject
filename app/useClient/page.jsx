@@ -77,6 +77,10 @@ const TestClient = () => {
       <Link className={classes.link} href="/useClient/testTemplate">
         {"  template.jsx"}
       </Link>
+      <h1>{"notFound - функция"}</h1>
+      <Link className={classes.link} href="/useClient/notFondTest">
+        {"notFound"}
+      </Link>
     </div>
   );
 };

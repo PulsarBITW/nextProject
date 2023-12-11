@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "useClient",
+  title: { absolute: "useClient" },
 };
 
 export default function Layout({ children }) {
